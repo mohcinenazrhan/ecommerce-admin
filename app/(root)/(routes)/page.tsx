@@ -13,13 +13,5 @@ export default function SetupPage() {
     }
   }, [isOpen, onOpen]);
 
-  return (
-    <div className="p-4">
-      {/* <UserButton afterSignOutUrl="/" /> */}
-      {/* <Modal isOpen onClose={() => {}} title="Test" description="Test Desc">
-        Children
-      </Modal> */}
-      Root page
-    </div>
-  );
+  return null;
 }
